@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://149.129.226.227:5432/shorty
+    username: ENC(LiP7Ul/C2OiJRdxZrxqKFouqxC14yyqlR3oheXgu0iWQdpwBpr94/nLKAdxO+eCT)
+    password: ENC(477zF8BHQaNieecawhh+OD/IB5TGGbzcPtppj/ml0NlpIf8jzU8eiYw41l4PX/0T)
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        ddl-auto: update
+        default_schema: test
+
+
+
